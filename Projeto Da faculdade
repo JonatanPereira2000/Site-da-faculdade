@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unitech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="cabecario">
+        <a href="#home" class="logo" title="página inicial">Unitech</a>
+
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Seu futuro tecnológico começa aqui.</h2>
+            <p>Na UNITECH, acreditamos que cada startup possui o potencial para fazer a diferença no mundo digital. Com o avanço acelerado da tecnologia, sabemos que o crescimento sustentável exige mais do que apenas inovação – é preciso uma visão estratégica, comprometimento e suporte confiável. É exatamente nisso que nos especializamos: oferecer uma consultoria próxima e humanizada, que entende as necessidades específicas da sua empresa e ajuda a impulsionar seu progresso.
+                <br><br>
+                Trabalhamos ao lado de startups que desejam se destacar, não apenas adaptando-se ao mundo tecnológico, mas liderando nele. Nosso time de especialistas está disponível para oferecer apoio remoto em cada etapa, ajudando você a enfrentar desafios, otimizar processos e tornar seu ambiente de trabalho mais integrado e colaborativo. A UNITECH não é apenas uma consultoria; somos parceiros comprometidos com o sucesso e o crescimento contínuo de sua startup. Nosso objetivo é construir uma base sólida para que você possa avançar com segurança e confiança, trazendo soluções que conectam pessoas, processos e tecnologias de forma integrada.
+                <br><br>
+                Junte-se a nós nessa jornada para transformar o seu negócio, criando um futuro mais tecnológico, eficiente e inovador. Queremos que sua startup cresça de maneira sustentável, em um ambiente que valoriza a colaboração, a criatividade e o propósito de cada equipe. Na UNITECH, seu futuro começa com a nossa parceria
+            </p>
+        </section>
+        <div class="forms">
+        <h3>Cadastro</h3>
+        <form action="cadastro.html" method="post"></form>
+           
+            <label for="nome">Nome Completo: </label>
+            <input type="text" name="nome" id="nome" required>
+           
+          <label for="email">Email: </label>
+           <input type="email" name="email" id="email" required>
+
+           <label for="senha">Senha: </label>
+           <input type="password" name="senha" id="senha" required>
+
+           <label for="confirmaSenha">Confirma a sua Senha: </label>
+           <input type="password" name="confirmaSenha" id="confirmaSenha" required>
+
+           <label for="telefone">Telefone: </label>
+           <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXXX - XXXXX">
+
+           <label for="empresa">Nome da Empresa: </label>
+           <input type="text" name="empresa" id="empresa">
+
+           <input type="submit" value="Cadastrar">
+
+        </form>
+        </div>
+    </main>
+    <footer>
+        <p><strong>Unitech&copy; 2024 Todos os direitos reservados</strong></p>
+    </footer>
+</body>
+</html>
